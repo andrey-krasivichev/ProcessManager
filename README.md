@@ -35,3 +35,10 @@ It uses Objective-C, C, Swift languages.
 User Interface is built with both code and storyboard.
 
 Some code is converted from UIKit which designed for iOS applications. So it just was reused without big changes.
+
+# Build notes
+If you would like to build application from source, helper tool code must be resigned with certificate. Additionally, application must be resigned too.
+
+# Uninstall notes
+Privileged Helper tool is installed with root rights. To uninstall it - remove helper '.plist' file from Library/LaunchDaemons/
+And kill current launched helper tool process via Activity Monitor
