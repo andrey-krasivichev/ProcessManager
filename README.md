@@ -41,4 +41,5 @@ If you would like to build application from source, helper tool code must be res
 
 # Uninstall notes
 Privileged Helper tool is installed with root rights. To uninstall it - remove helper '.plist' file from Library/LaunchDaemons/
-And kill current launched helper tool process via Activity Monitor
+
+Also kill current launched helper tool process via Activity Monitor
