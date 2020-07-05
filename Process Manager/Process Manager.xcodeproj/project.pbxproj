@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7158D8F24B236AB006876B6 /* ProcessManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7158D8E24B236AB006876B6 /* ProcessManagerTests.swift */; };
 		C736761F24AA4DE0009CAC67 /* EasyLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C736761E24AA4DE0009CAC67 /* EasyLayout.swift */; };
 		C736762424AA501E009CAC67 /* StyleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C736762324AA501E009CAC67 /* StyleSheet.swift */; };
 		C736762724AA51AC009CAC67 /* ProcessItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C736762624AA51AC009CAC67 /* ProcessItem.swift */; };
@@ -40,26 +41,24 @@
 		C7922E0024B085C4004C2CB1 /* com.krasivichev.andrey.PrivilegedHelper in CopyFiles */ = {isa = PBXBuildFile; fileRef = C7F03ACC24AF71E9003866EF /* com.krasivichev.andrey.PrivilegedHelper */; };
 		C7922E0524B08C09004C2CB1 /* PrivilegedHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7922E0124B08876004C2CB1 /* PrivilegedHelper.swift */; };
 		C7922E0B24B0B157004C2CB1 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7922E0A24B0B157004C2CB1 /* NotificationView.swift */; };
-		C7D78E0924B1D36200908585 /* ProcessManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D78E0824B1D36200908585 /* ProcessManagerTests.swift */; };
-		C7D78E1024B1D36E00908585 /* MainFunctionsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D78DFF24B1D2DB00908585 /* MainFunctionsTest.swift */; };
 		C7F03ACF24AF71E9003866EF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F03ACE24AF71E9003866EF /* main.swift */; };
 		C7F03AD524AF724A003866EF /* com.krasivichev.andrey.PrivilegedHelper in CopyFiles */ = {isa = PBXBuildFile; fileRef = C7F03ACC24AF71E9003866EF /* com.krasivichev.andrey.PrivilegedHelper */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C7158D9124B236AB006876B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C749995E24A5EA1300ADF078 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C749996524A5EA1300ADF078;
+			remoteInfo = "Process Manager";
+		};
 		C746360324ADC4BD00554FD7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C749995E24A5EA1300ADF078 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C74635F924ADC4BD00554FD7;
 			remoteInfo = ProcessService;
-		};
-		C7D78E0B24B1D36200908585 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C749995E24A5EA1300ADF078 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C749996524A5EA1300ADF078;
-			remoteInfo = "Process Manager";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -106,6 +105,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C7158D8C24B236AB006876B6 /* ProcessManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProcessManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7158D8E24B236AB006876B6 /* ProcessManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessManagerTests.swift; sourceTree = "<group>"; };
+		C7158D9024B236AB006876B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C736761E24AA4DE0009CAC67 /* EasyLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EasyLayout.swift; path = ../Utils/EasyLayout.swift; sourceTree = "<group>"; };
 		C736762324AA501E009CAC67 /* StyleSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleSheet.swift; sourceTree = "<group>"; };
 		C736762624AA51AC009CAC67 /* ProcessItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessItem.swift; sourceTree = "<group>"; };
@@ -147,8 +149,6 @@
 		C7922E0824B0900D004C2CB1 /* com.krasivichev.andrey.PrivilegedHelper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "com.krasivichev.andrey.PrivilegedHelper-Bridging-Header.h"; sourceTree = "<group>"; };
 		C7922E0924B0900E004C2CB1 /* PrivilegedHelperProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrivilegedHelperProtocol.h; sourceTree = "<group>"; };
 		C7922E0A24B0B157004C2CB1 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
-		C7D78DFF24B1D2DB00908585 /* MainFunctionsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainFunctionsTest.swift; path = UnitTests/MainFunctionsTest.swift; sourceTree = SOURCE_ROOT; };
-		C7D78E0624B1D36200908585 /* ProcessManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProcessManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D78E0824B1D36200908585 /* ProcessManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessManagerTests.swift; sourceTree = "<group>"; };
 		C7D78E0A24B1D36200908585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7F03ACC24AF71E9003866EF /* com.krasivichev.andrey.PrivilegedHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = com.krasivichev.andrey.PrivilegedHelper; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -158,6 +158,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C7158D8924B236AB006876B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C74635F724ADC4BD00554FD7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -166,13 +173,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C749996324A5EA1300ADF078 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C7D78E0324B1D36200908585 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -189,6 +189,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C7158D8D24B236AB006876B6 /* ProcessManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7158D8E24B236AB006876B6 /* ProcessManagerTests.swift */,
+				C7158D9024B236AB006876B6 /* Info.plist */,
+			);
+			path = ProcessManagerTests;
+			sourceTree = "<group>";
+		};
 		C736762024AA4FE7009CAC67 /* LayoutUtils */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,8 +270,8 @@
 				C74635FB24ADC4BD00554FD7 /* ProcessService */,
 				C7F03ACD24AF71E9003866EF /* PrivilegedHelper */,
 				C7D78E0724B1D36200908585 /* ProcessManagerTests */,
+				C7158D8D24B236AB006876B6 /* ProcessManagerTests */,
 				C749996724A5EA1300ADF078 /* Products */,
-				C7D78DFE24B1D2B100908585 /* UnitTests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -272,7 +281,7 @@
 				C749996624A5EA1300ADF078 /* Process Manager.app */,
 				C74635FA24ADC4BD00554FD7 /* ProcessService.xpc */,
 				C7F03ACC24AF71E9003866EF /* com.krasivichev.andrey.PrivilegedHelper */,
-				C7D78E0624B1D36200908585 /* ProcessManagerTests.xctest */,
+				C7158D8C24B236AB006876B6 /* ProcessManagerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -292,15 +301,6 @@
 				C749997324A5EA1600ADF078 /* Process_Manager.entitlements */,
 			);
 			path = "Process Manager";
-			sourceTree = "<group>";
-		};
-		C7D78DFE24B1D2B100908585 /* UnitTests */ = {
-			isa = PBXGroup;
-			children = (
-				C7D78DFF24B1D2DB00908585 /* MainFunctionsTest.swift */,
-			);
-			name = UnitTests;
-			path = PrivilegedHelper/UnitTests;
 			sourceTree = "<group>";
 		};
 		C7D78E0724B1D36200908585 /* ProcessManagerTests */ = {
@@ -328,6 +328,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C7158D8B24B236AB006876B6 /* ProcessManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7158D9324B236AB006876B6 /* Build configuration list for PBXNativeTarget "ProcessManagerTests" */;
+			buildPhases = (
+				C7158D8824B236AB006876B6 /* Sources */,
+				C7158D8924B236AB006876B6 /* Frameworks */,
+				C7158D8A24B236AB006876B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7158D9224B236AB006876B6 /* PBXTargetDependency */,
+			);
+			name = ProcessManagerTests;
+			productName = ProcessManagerTests;
+			productReference = C7158D8C24B236AB006876B6 /* ProcessManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C74635F924ADC4BD00554FD7 /* ProcessService */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C746360624ADC4BD00554FD7 /* Build configuration list for PBXNativeTarget "ProcessService" */;
@@ -366,24 +384,6 @@
 			productReference = C749996624A5EA1300ADF078 /* Process Manager.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C7D78E0524B1D36200908585 /* ProcessManagerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C7D78E0D24B1D36200908585 /* Build configuration list for PBXNativeTarget "ProcessManagerTests" */;
-			buildPhases = (
-				C7D78E0224B1D36200908585 /* Sources */,
-				C7D78E0324B1D36200908585 /* Frameworks */,
-				C7D78E0424B1D36200908585 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C7D78E0C24B1D36200908585 /* PBXTargetDependency */,
-			);
-			name = ProcessManagerTests;
-			productName = ProcessManagerTests;
-			productReference = C7D78E0624B1D36200908585 /* ProcessManagerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		C7F03ACB24AF71E9003866EF /* com.krasivichev.andrey.PrivilegedHelper */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7F03AD024AF71E9003866EF /* Build configuration list for PBXNativeTarget "com.krasivichev.andrey.PrivilegedHelper" */;
@@ -411,6 +411,10 @@
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = "Andrey Krasivichev";
 				TargetAttributes = {
+					C7158D8B24B236AB006876B6 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = C749996524A5EA1300ADF078;
+					};
 					C74635F924ADC4BD00554FD7 = {
 						CreatedOnToolsVersion = 11.5;
 						LastSwiftMigration = 1150;
@@ -418,10 +422,6 @@
 					C749996524A5EA1300ADF078 = {
 						CreatedOnToolsVersion = 11.5;
 						LastSwiftMigration = 1150;
-					};
-					C7D78E0524B1D36200908585 = {
-						CreatedOnToolsVersion = 11.5;
-						TestTargetID = C749996524A5EA1300ADF078;
 					};
 					C7F03ACB24AF71E9003866EF = {
 						CreatedOnToolsVersion = 11.5;
@@ -445,12 +445,19 @@
 				C749996524A5EA1300ADF078 /* Process Manager */,
 				C74635F924ADC4BD00554FD7 /* ProcessService */,
 				C7F03ACB24AF71E9003866EF /* com.krasivichev.andrey.PrivilegedHelper */,
-				C7D78E0524B1D36200908585 /* ProcessManagerTests */,
+				C7158D8B24B236AB006876B6 /* ProcessManagerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C7158D8A24B236AB006876B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C74635F824ADC4BD00554FD7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -467,16 +474,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7D78E0424B1D36200908585 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C7158D8824B236AB006876B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7158D8F24B236AB006876B6 /* ProcessManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C74635F624ADC4BD00554FD7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -519,15 +527,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7D78E0224B1D36200908585 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C7D78E1024B1D36E00908585 /* MainFunctionsTest.swift in Sources */,
-				C7D78E0924B1D36200908585 /* ProcessManagerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C7F03AC824AF71E9003866EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -540,15 +539,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		C7158D9224B236AB006876B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C749996524A5EA1300ADF078 /* Process Manager */;
+			targetProxy = C7158D9124B236AB006876B6 /* PBXContainerItemProxy */;
+		};
 		C746360424ADC4BD00554FD7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C74635F924ADC4BD00554FD7 /* ProcessService */;
 			targetProxy = C746360324ADC4BD00554FD7 /* PBXContainerItemProxy */;
-		};
-		C7D78E0C24B1D36200908585 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C749996524A5EA1300ADF078 /* Process Manager */;
-			targetProxy = C7D78E0B24B1D36200908585 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -564,6 +563,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C7158D9424B236AB006876B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7X8HQ7VW7Q;
+				INFOPLIST_FILE = ProcessManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.krasivichev.andrey.ProcessManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Process Manager.app/Contents/MacOS/Process Manager";
+			};
+			name = Debug;
+		};
+		C7158D9524B236AB006876B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7X8HQ7VW7Q;
+				INFOPLIST_FILE = ProcessManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.krasivichev.andrey.ProcessManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Process Manager.app/Contents/MacOS/Process Manager";
+			};
+			name = Release;
+		};
 		C746360724ADC4BD00554FD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -775,50 +814,6 @@
 			};
 			name = Release;
 		};
-		C7D78E0E24B1D36200908585 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Manual;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = ProcessManagerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.krasivichev.andrey.ProcessManagerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Process Manager.app/Contents/MacOS/Process Manager";
-			};
-			name = Debug;
-		};
-		C7D78E0F24B1D36200908585 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Manual;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = ProcessManagerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.krasivichev.andrey.ProcessManagerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Process Manager.app/Contents/MacOS/Process Manager";
-			};
-			name = Release;
-		};
 		C7F03AD124AF71E9003866EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -885,6 +880,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C7158D9324B236AB006876B6 /* Build configuration list for PBXNativeTarget "ProcessManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7158D9424B236AB006876B6 /* Debug */,
+				C7158D9524B236AB006876B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C746360624ADC4BD00554FD7 /* Build configuration list for PBXNativeTarget "ProcessService" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -908,15 +912,6 @@
 			buildConfigurations = (
 				C749997724A5EA1600ADF078 /* Debug */,
 				C749997824A5EA1600ADF078 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C7D78E0D24B1D36200908585 /* Build configuration list for PBXNativeTarget "ProcessManagerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C7D78E0E24B1D36200908585 /* Debug */,
-				C7D78E0F24B1D36200908585 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

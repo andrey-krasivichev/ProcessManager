@@ -7,20 +7,29 @@
 //
 
 import XCTest
+@testable import Process_Manager
 
 class ProcessManagerTests: XCTestCase {
 
+    var processFetcher: ProcessItemsFetcher!
+    var didFetch: Bool = false
+    
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        self.processFetcher = ProcessItemsFetcher()
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        self.processFetcher = nil
     }
 
     func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let promise = expectation(description: "Wait for fetch processes")
+        self.processFetcher.itemsFetchedBlock = { (itemsById) in
+            itemsById.count > 0 ? promise.fulfill() : XCTFail("There must be processes..")
+        }
+        self.processFetcher.startFetchEvents()
+        self.wait(for: [promise], timeout: 1.0)
+        self.processFetcher.finishFetchEvents()
     }
 
     func testPerformanceExample() throws {
