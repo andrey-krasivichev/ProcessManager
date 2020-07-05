@@ -6,15 +6,15 @@
 //  Copyright © 2020 Andrey Krasivichev. All rights reserved.
 //
 
-#import "Authorization.h"
+#import "AuthorizedOperation.h"
 #import <ServiceManagement/ServiceManagement.h>
 #import "PrivilegedHelperProtocol.h"
 
-@interface Authorization ()
+@interface AuthorizedOperation ()
 @property (atomic, strong, readwrite) NSXPCConnection *privilegedHelperConnection;
 @end
 
-@implementation Authorization {
+@implementation AuthorizedOperation {
     AuthorizationRef _authRef;
 }
 

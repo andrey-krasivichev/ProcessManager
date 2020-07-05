@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Authorization : NSObject
+@interface AuthorizedOperation : NSObject
 - (void)killProcessWithId:(pid_t)pid reply:(void(^)(NSString *))reply;
 @end
 

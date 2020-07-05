@@ -10,7 +10,7 @@ import Foundation
 import ServiceManagement
 
 class ProcessService: NSObject, ProcessServiceProtocol {
-    lazy var authorization: Authorization = Authorization()
+    lazy var authorizedOperation: AuthorizedOperation = AuthorizedOperation()
     
     func killProcessWithId(_ pid: pid_t, replyBlock: @escaping (Int32) -> ()) {
         let killSignal: Int32 = SIGKILL
@@ -19,6 +19,6 @@ class ProcessService: NSObject, ProcessServiceProtocol {
     }
     
     func killPrivilegedProcessWithId(_ pid: pid_t, replyBlock: @escaping (String) -> ()) {
-        self.authorization.killProcess(withId: pid, reply: replyBlock)
+        self.authorizedOperation.killProcess(withId: pid, reply: replyBlock)
     }
 }
