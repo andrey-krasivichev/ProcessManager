@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C736761F24AA4DE0009CAC67 /* EasyLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C736761E24AA4DE0009CAC67 /* EasyLayout.swift */; };
+		C736762424AA501E009CAC67 /* StyleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C736762324AA501E009CAC67 /* StyleSheet.swift */; };
+		C736762724AA51AC009CAC67 /* ProcessItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C736762624AA51AC009CAC67 /* ProcessItem.swift */; };
+		C736762A24AA51EC009CAC67 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C736762924AA51EC009CAC67 /* Identifiable.swift */; };
+		C736762E24AA5254009CAC67 /* IdentifiableItemsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C736762D24AA5254009CAC67 /* IdentifiableItemsContainer.swift */; };
+		C736763124AA5277009CAC67 /* IdentifiableItemsContainerDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = C736762F24AA5277009CAC67 /* IdentifiableItemsContainerDefault.swift */; };
+		C736763224AA5277009CAC67 /* IdentifiableItemsContainerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C736763024AA5277009CAC67 /* IdentifiableItemsContainerFactory.swift */; };
+		C736763424AA5355009CAC67 /* IdentifiableItemsContainerAsTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C736763324AA5355009CAC67 /* IdentifiableItemsContainerAsTableDataSource.swift */; };
+		C736763624AA57A6009CAC67 /* TableViewDelegateHandlerDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = C736763524AA57A6009CAC67 /* TableViewDelegateHandlerDefault.swift */; };
+		C743912B24AC6B5B003D4416 /* TitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C743912A24AC6B5B003D4416 /* TitleCell.swift */; };
+		C743913224AC7D40003D4416 /* ProcessItemsFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C743913124AC7D40003D4416 /* ProcessItemsFetcher.swift */; };
+		C746360B24ADC4EE00554FD7 /* ProcessServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74635FC24ADC4BD00554FD7 /* ProcessServiceProtocol.swift */; };
+		C746360C24ADC4EE00554FD7 /* ProcessServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74635FD24ADC4BD00554FD7 /* ProcessServiceDelegate.swift */; };
+		C746360D24ADC4EE00554FD7 /* ProcessService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74635FE24ADC4BD00554FD7 /* ProcessService.swift */; };
+		C746360E24ADC4EE00554FD7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C746360024ADC4BD00554FD7 /* main.swift */; };
+		C746361024ADC6F200554FD7 /* ProcessService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C746360F24ADC6F200554FD7 /* ProcessService.swift */; };
+		C746361124ADC84500554FD7 /* ProcessServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74635FC24ADC4BD00554FD7 /* ProcessServiceProtocol.swift */; };
+		C746361324ADCC5400554FD7 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C746361224ADCC5400554FD7 /* Utils.swift */; };
+		C746361524ADD78E00554FD7 /* IdentifiableItemsContainerOrderedInsertionsDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C746361424ADD78E00554FD7 /* IdentifiableItemsContainerOrderedInsertionsDecorator.swift */; };
+		C746361724ADDF3700554FD7 /* DynamicDataSourceChangesDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C746361624ADDF3700554FD7 /* DynamicDataSourceChangesDecorator.swift */; };
+		C746361924ADE36800554FD7 /* IdentifiersContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C746361824ADE36800554FD7 /* IdentifiersContainer.swift */; };
+		C746361B24ADE38B00554FD7 /* IdentifiersContainerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C746361A24ADE38B00554FD7 /* IdentifiersContainerFactory.swift */; };
+		C746361E24ADFA1A00554FD7 /* ProcessNameRetriever.m in Sources */ = {isa = PBXBuildFile; fileRef = C746361D24ADFA1A00554FD7 /* ProcessNameRetriever.m */; };
+		C749996A24A5EA1300ADF078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C749996924A5EA1300ADF078 /* AppDelegate.swift */; };
+		C749996C24A5EA1300ADF078 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C749996B24A5EA1300ADF078 /* ViewController.swift */; };
+		C749996E24A5EA1600ADF078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C749996D24A5EA1600ADF078 /* Assets.xcassets */; };
+		C749997124A5EA1600ADF078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C749996F24A5EA1600ADF078 /* Main.storyboard */; };
+		C749997C24A6886000ADF078 /* PreferencesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C749997B24A6886000ADF078 /* PreferencesVC.swift */; };
+		C7922DFD24B06BA7004C2CB1 /* Authorization.m in Sources */ = {isa = PBXBuildFile; fileRef = C7922DFC24B06BA7004C2CB1 /* Authorization.m */; };
+		C7922DFE24B0774A004C2CB1 /* ProcessService.xpc in CopyFiles */ = {isa = PBXBuildFile; fileRef = C74635FA24ADC4BD00554FD7 /* ProcessService.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C7922E0024B085C4004C2CB1 /* com.krasivichev.andrey.PrivilegedHelper in CopyFiles */ = {isa = PBXBuildFile; fileRef = C7F03ACC24AF71E9003866EF /* com.krasivichev.andrey.PrivilegedHelper */; };
+		C7922E0524B08C09004C2CB1 /* PrivilegedHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7922E0124B08876004C2CB1 /* PrivilegedHelper.swift */; };
+		C7922E0B24B0B157004C2CB1 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7922E0A24B0B157004C2CB1 /* NotificationView.swift */; };
+		C7F03ACF24AF71E9003866EF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F03ACE24AF71E9003866EF /* main.swift */; };
+		C7F03AD524AF724A003866EF /* com.krasivichev.andrey.PrivilegedHelper in CopyFiles */ = {isa = PBXBuildFile; fileRef = C7F03ACC24AF71E9003866EF /* com.krasivichev.andrey.PrivilegedHelper */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C746360324ADC4BD00554FD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C749995E24A5EA1300ADF078 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C74635F924ADC4BD00554FD7;
+			remoteInfo = ProcessService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C736760824A9F2D7009CAC67 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/XPCServices;
+			dstSubfolderSpec = 1;
+			files = (
+				C7922DFE24B0774A004C2CB1 /* ProcessService.xpc in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7922DFF24B085A9004C2CB1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchServices;
+			dstSubfolderSpec = 1;
+			files = (
+				C7922E0024B085C4004C2CB1 /* com.krasivichev.andrey.PrivilegedHelper in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7F03ACA24AF71E9003866EF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		C7F03AD424AF7220003866EF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchServices;
+			dstSubfolderSpec = 1;
+			files = (
+				C7F03AD524AF724A003866EF /* com.krasivichev.andrey.PrivilegedHelper in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C736761E24AA4DE0009CAC67 /* EasyLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EasyLayout.swift; path = ../Utils/EasyLayout.swift; sourceTree = "<group>"; };
+		C736762324AA501E009CAC67 /* StyleSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleSheet.swift; sourceTree = "<group>"; };
+		C736762624AA51AC009CAC67 /* ProcessItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessItem.swift; sourceTree = "<group>"; };
+		C736762924AA51EC009CAC67 /* Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifiable.swift; sourceTree = "<group>"; };
+		C736762D24AA5254009CAC67 /* IdentifiableItemsContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentifiableItemsContainer.swift; sourceTree = "<group>"; };
+		C736762F24AA5277009CAC67 /* IdentifiableItemsContainerDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentifiableItemsContainerDefault.swift; sourceTree = "<group>"; };
+		C736763024AA5277009CAC67 /* IdentifiableItemsContainerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentifiableItemsContainerFactory.swift; sourceTree = "<group>"; };
+		C736763324AA5355009CAC67 /* IdentifiableItemsContainerAsTableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiableItemsContainerAsTableDataSource.swift; sourceTree = "<group>"; };
+		C736763524AA57A6009CAC67 /* TableViewDelegateHandlerDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDelegateHandlerDefault.swift; sourceTree = "<group>"; };
+		C743912A24AC6B5B003D4416 /* TitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCell.swift; sourceTree = "<group>"; };
+		C743913124AC7D40003D4416 /* ProcessItemsFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessItemsFetcher.swift; sourceTree = "<group>"; };
+		C74635FA24ADC4BD00554FD7 /* ProcessService.xpc */ = {isa = PBXFileReference; explicitFileType = "wrapper.xpc-service"; includeInIndex = 0; path = ProcessService.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
+		C74635FC24ADC4BD00554FD7 /* ProcessServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessServiceProtocol.swift; sourceTree = "<group>"; };
+		C74635FD24ADC4BD00554FD7 /* ProcessServiceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessServiceDelegate.swift; sourceTree = "<group>"; };
+		C74635FE24ADC4BD00554FD7 /* ProcessService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessService.swift; sourceTree = "<group>"; };
+		C746360024ADC4BD00554FD7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C746360224ADC4BD00554FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C746360F24ADC6F200554FD7 /* ProcessService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessService.swift; sourceTree = "<group>"; };
+		C746361224ADCC5400554FD7 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		C746361424ADD78E00554FD7 /* IdentifiableItemsContainerOrderedInsertionsDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiableItemsContainerOrderedInsertionsDecorator.swift; sourceTree = "<group>"; };
+		C746361624ADDF3700554FD7 /* DynamicDataSourceChangesDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicDataSourceChangesDecorator.swift; sourceTree = "<group>"; };
+		C746361824ADE36800554FD7 /* IdentifiersContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiersContainer.swift; sourceTree = "<group>"; };
+		C746361A24ADE38B00554FD7 /* IdentifiersContainerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiersContainerFactory.swift; sourceTree = "<group>"; };
+		C746361C24ADFA1900554FD7 /* Process Manager-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Process Manager-Bridging-Header.h"; sourceTree = "<group>"; };
+		C746361D24ADFA1A00554FD7 /* ProcessNameRetriever.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProcessNameRetriever.m; sourceTree = "<group>"; };
+		C746361F24ADFB8200554FD7 /* NSString+ProcessName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ProcessName.h"; sourceTree = "<group>"; };
+		C749996624A5EA1300ADF078 /* Process Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Process Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C749996924A5EA1300ADF078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C749996B24A5EA1300ADF078 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C749996D24A5EA1600ADF078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C749997024A5EA1600ADF078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C749997224A5EA1600ADF078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C749997324A5EA1600ADF078 /* Process_Manager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Process_Manager.entitlements; sourceTree = "<group>"; };
+		C749997B24A6886000ADF078 /* PreferencesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PreferencesVC.swift; path = ViewControllers/PreferencesVC.swift; sourceTree = "<group>"; };
+		C7922DFA24B06BA6004C2CB1 /* ProcessService-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProcessService-Bridging-Header.h"; sourceTree = "<group>"; };
+		C7922DFB24B06BA7004C2CB1 /* Authorization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Authorization.h; sourceTree = "<group>"; };
+		C7922DFC24B06BA7004C2CB1 /* Authorization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Authorization.m; sourceTree = "<group>"; };
+		C7922E0124B08876004C2CB1 /* PrivilegedHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivilegedHelper.swift; sourceTree = "<group>"; };
+		C7922E0824B0900D004C2CB1 /* com.krasivichev.andrey.PrivilegedHelper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "com.krasivichev.andrey.PrivilegedHelper-Bridging-Header.h"; sourceTree = "<group>"; };
+		C7922E0924B0900E004C2CB1 /* PrivilegedHelperProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrivilegedHelperProtocol.h; sourceTree = "<group>"; };
+		C7922E0A24B0B157004C2CB1 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		C7F03ACC24AF71E9003866EF /* com.krasivichev.andrey.PrivilegedHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = com.krasivichev.andrey.PrivilegedHelper; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7F03ACE24AF71E9003866EF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C7F03AD624AF72D0003866EF /* Launchd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Launchd.plist; sourceTree = "<group>"; };
+		C7F03AD724AF72D0003866EF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C74635F724ADC4BD00554FD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C749996324A5EA1300ADF078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7F03AC924AF71E9003866EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C736762024AA4FE7009CAC67 /* LayoutUtils */ = {
+			isa = PBXGroup;
+			children = (
+				C736761E24AA4DE0009CAC67 /* EasyLayout.swift */,
+				C736762324AA501E009CAC67 /* StyleSheet.swift */,
+				C746361224ADCC5400554FD7 /* Utils.swift */,
+			);
+			path = LayoutUtils;
+			sourceTree = "<group>";
+		};
+		C736762524AA5198009CAC67 /* ModelData */ = {
+			isa = PBXGroup;
+			children = (
+				C736762824AA51D9009CAC67 /* Identifiable */,
+				C736762624AA51AC009CAC67 /* ProcessItem.swift */,
+				C743913124AC7D40003D4416 /* ProcessItemsFetcher.swift */,
+				C746360F24ADC6F200554FD7 /* ProcessService.swift */,
+				C746361D24ADFA1A00554FD7 /* ProcessNameRetriever.m */,
+				C746361F24ADFB8200554FD7 /* NSString+ProcessName.h */,
+				C746361C24ADFA1900554FD7 /* Process Manager-Bridging-Header.h */,
+			);
+			path = ModelData;
+			sourceTree = "<group>";
+		};
+		C736762824AA51D9009CAC67 /* Identifiable */ = {
+			isa = PBXGroup;
+			children = (
+				C736762924AA51EC009CAC67 /* Identifiable.swift */,
+				C736762D24AA5254009CAC67 /* IdentifiableItemsContainer.swift */,
+				C736762F24AA5277009CAC67 /* IdentifiableItemsContainerDefault.swift */,
+				C736763024AA5277009CAC67 /* IdentifiableItemsContainerFactory.swift */,
+				C746361424ADD78E00554FD7 /* IdentifiableItemsContainerOrderedInsertionsDecorator.swift */,
+				C746361624ADDF3700554FD7 /* DynamicDataSourceChangesDecorator.swift */,
+				C736763324AA5355009CAC67 /* IdentifiableItemsContainerAsTableDataSource.swift */,
+				C736763524AA57A6009CAC67 /* TableViewDelegateHandlerDefault.swift */,
+				C746361824ADE36800554FD7 /* IdentifiersContainer.swift */,
+				C746361A24ADE38B00554FD7 /* IdentifiersContainerFactory.swift */,
+			);
+			path = Identifiable;
+			sourceTree = "<group>";
+		};
+		C743912924AC6AB2003D4416 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C743912A24AC6B5B003D4416 /* TitleCell.swift */,
+				C7922E0A24B0B157004C2CB1 /* NotificationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C74635FB24ADC4BD00554FD7 /* ProcessService */ = {
+			isa = PBXGroup;
+			children = (
+				C746360024ADC4BD00554FD7 /* main.swift */,
+				C74635FC24ADC4BD00554FD7 /* ProcessServiceProtocol.swift */,
+				C74635FD24ADC4BD00554FD7 /* ProcessServiceDelegate.swift */,
+				C74635FE24ADC4BD00554FD7 /* ProcessService.swift */,
+				C7922DFB24B06BA7004C2CB1 /* Authorization.h */,
+				C7922DFC24B06BA7004C2CB1 /* Authorization.m */,
+				C7922DFA24B06BA6004C2CB1 /* ProcessService-Bridging-Header.h */,
+				C746360224ADC4BD00554FD7 /* Info.plist */,
+			);
+			path = ProcessService;
+			sourceTree = "<group>";
+		};
+		C749995D24A5EA1300ADF078 = {
+			isa = PBXGroup;
+			children = (
+				C749996824A5EA1300ADF078 /* Process Manager */,
+				C74635FB24ADC4BD00554FD7 /* ProcessService */,
+				C7F03ACD24AF71E9003866EF /* PrivilegedHelper */,
+				C749996724A5EA1300ADF078 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C749996724A5EA1300ADF078 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C749996624A5EA1300ADF078 /* Process Manager.app */,
+				C74635FA24ADC4BD00554FD7 /* ProcessService.xpc */,
+				C7F03ACC24AF71E9003866EF /* com.krasivichev.andrey.PrivilegedHelper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C749996824A5EA1300ADF078 /* Process Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C749996924A5EA1300ADF078 /* AppDelegate.swift */,
+				C749996B24A5EA1300ADF078 /* ViewController.swift */,
+				C749997B24A6886000ADF078 /* PreferencesVC.swift */,
+				C743912924AC6AB2003D4416 /* Views */,
+				C736762524AA5198009CAC67 /* ModelData */,
+				C736762024AA4FE7009CAC67 /* LayoutUtils */,
+				C749996D24A5EA1600ADF078 /* Assets.xcassets */,
+				C749996F24A5EA1600ADF078 /* Main.storyboard */,
+				C749997224A5EA1600ADF078 /* Info.plist */,
+				C749997324A5EA1600ADF078 /* Process_Manager.entitlements */,
+			);
+			path = "Process Manager";
+			sourceTree = "<group>";
+		};
+		C7F03ACD24AF71E9003866EF /* PrivilegedHelper */ = {
+			isa = PBXGroup;
+			children = (
+				C7922E0924B0900E004C2CB1 /* PrivilegedHelperProtocol.h */,
+				C7922E0124B08876004C2CB1 /* PrivilegedHelper.swift */,
+				C7F03ACE24AF71E9003866EF /* main.swift */,
+				C7F03AD724AF72D0003866EF /* Info.plist */,
+				C7F03AD624AF72D0003866EF /* Launchd.plist */,
+				C7922E0824B0900D004C2CB1 /* com.krasivichev.andrey.PrivilegedHelper-Bridging-Header.h */,
+			);
+			path = PrivilegedHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C74635F924ADC4BD00554FD7 /* ProcessService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C746360624ADC4BD00554FD7 /* Build configuration list for PBXNativeTarget "ProcessService" */;
+			buildPhases = (
+				C74635F624ADC4BD00554FD7 /* Sources */,
+				C74635F724ADC4BD00554FD7 /* Frameworks */,
+				C74635F824ADC4BD00554FD7 /* Resources */,
+				C7F03AD424AF7220003866EF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProcessService;
+			productName = ProcessService;
+			productReference = C74635FA24ADC4BD00554FD7 /* ProcessService.xpc */;
+			productType = "com.apple.product-type.xpc-service";
+		};
+		C749996524A5EA1300ADF078 /* Process Manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C749997624A5EA1600ADF078 /* Build configuration list for PBXNativeTarget "Process Manager" */;
+			buildPhases = (
+				C749996224A5EA1300ADF078 /* Sources */,
+				C749996324A5EA1300ADF078 /* Frameworks */,
+				C749996424A5EA1300ADF078 /* Resources */,
+				C736760824A9F2D7009CAC67 /* CopyFiles */,
+				C7922DFF24B085A9004C2CB1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C746360424ADC4BD00554FD7 /* PBXTargetDependency */,
+			);
+			name = "Process Manager";
+			productName = "Process Manager";
+			productReference = C749996624A5EA1300ADF078 /* Process Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7F03ACB24AF71E9003866EF /* com.krasivichev.andrey.PrivilegedHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7F03AD024AF71E9003866EF /* Build configuration list for PBXNativeTarget "com.krasivichev.andrey.PrivilegedHelper" */;
+			buildPhases = (
+				C7F03AC824AF71E9003866EF /* Sources */,
+				C7F03AC924AF71E9003866EF /* Frameworks */,
+				C7F03ACA24AF71E9003866EF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = com.krasivichev.andrey.PrivilegedHelper;
+			productName = PrivilegedHelper;
+			productReference = C7F03ACC24AF71E9003866EF /* com.krasivichev.andrey.PrivilegedHelper */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C749995E24A5EA1300ADF078 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Andrey Krasivichev";
+				TargetAttributes = {
+					C74635F924ADC4BD00554FD7 = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
+					};
+					C749996524A5EA1300ADF078 = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
+					};
+					C7F03ACB24AF71E9003866EF = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
+					};
+				};
+			};
+			buildConfigurationList = C749996124A5EA1300ADF078 /* Build configuration list for PBXProject "Process Manager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C749995D24A5EA1300ADF078;
+			productRefGroup = C749996724A5EA1300ADF078 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C749996524A5EA1300ADF078 /* Process Manager */,
+				C74635F924ADC4BD00554FD7 /* ProcessService */,
+				C7F03ACB24AF71E9003866EF /* com.krasivichev.andrey.PrivilegedHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C74635F824ADC4BD00554FD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C749996424A5EA1300ADF078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C749996E24A5EA1600ADF078 /* Assets.xcassets in Resources */,
+				C749997124A5EA1600ADF078 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C74635F624ADC4BD00554FD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C746360C24ADC4EE00554FD7 /* ProcessServiceDelegate.swift in Sources */,
+				C746360D24ADC4EE00554FD7 /* ProcessService.swift in Sources */,
+				C746360E24ADC4EE00554FD7 /* main.swift in Sources */,
+				C7922DFD24B06BA7004C2CB1 /* Authorization.m in Sources */,
+				C746360B24ADC4EE00554FD7 /* ProcessServiceProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C749996224A5EA1300ADF078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C746361724ADDF3700554FD7 /* DynamicDataSourceChangesDecorator.swift in Sources */,
+				C736763224AA5277009CAC67 /* IdentifiableItemsContainerFactory.swift in Sources */,
+				C746361024ADC6F200554FD7 /* ProcessService.swift in Sources */,
+				C736761F24AA4DE0009CAC67 /* EasyLayout.swift in Sources */,
+				C7922E0B24B0B157004C2CB1 /* NotificationView.swift in Sources */,
+				C736762E24AA5254009CAC67 /* IdentifiableItemsContainer.swift in Sources */,
+				C736763424AA5355009CAC67 /* IdentifiableItemsContainerAsTableDataSource.swift in Sources */,
+				C749997C24A6886000ADF078 /* PreferencesVC.swift in Sources */,
+				C743913224AC7D40003D4416 /* ProcessItemsFetcher.swift in Sources */,
+				C749996C24A5EA1300ADF078 /* ViewController.swift in Sources */,
+				C749996A24A5EA1300ADF078 /* AppDelegate.swift in Sources */,
+				C746361924ADE36800554FD7 /* IdentifiersContainer.swift in Sources */,
+				C746361B24ADE38B00554FD7 /* IdentifiersContainerFactory.swift in Sources */,
+				C746361324ADCC5400554FD7 /* Utils.swift in Sources */,
+				C746361124ADC84500554FD7 /* ProcessServiceProtocol.swift in Sources */,
+				C743912B24AC6B5B003D4416 /* TitleCell.swift in Sources */,
+				C736763624AA57A6009CAC67 /* TableViewDelegateHandlerDefault.swift in Sources */,
+				C736763124AA5277009CAC67 /* IdentifiableItemsContainerDefault.swift in Sources */,
+				C746361524ADD78E00554FD7 /* IdentifiableItemsContainerOrderedInsertionsDecorator.swift in Sources */,
+				C736762A24AA51EC009CAC67 /* Identifiable.swift in Sources */,
+				C736762724AA51AC009CAC67 /* ProcessItem.swift in Sources */,
+				C736762424AA501E009CAC67 /* StyleSheet.swift in Sources */,
+				C746361E24ADFA1A00554FD7 /* ProcessNameRetriever.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7F03AC824AF71E9003866EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7922E0524B08C09004C2CB1 /* PrivilegedHelper.swift in Sources */,
+				C7F03ACF24AF71E9003866EF /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C746360424ADC4BD00554FD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C74635F924ADC4BD00554FD7 /* ProcessService */;
+			targetProxy = C746360324ADC4BD00554FD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C749996F24A5EA1600ADF078 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C749997024A5EA1600ADF078 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C746360724ADC4BD00554FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7X8HQ7VW7Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = ProcessService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krasivichev.andrey.ProcessService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "ProcessService/ProcessService-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C746360824ADC4BD00554FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7X8HQ7VW7Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = ProcessService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krasivichev.andrey.ProcessService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "ProcessService/ProcessService-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C749997424A5EA1600ADF078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C749997524A5EA1600ADF078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C749997724A5EA1600ADF078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Process Manager/Process_Manager.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7X8HQ7VW7Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Process Manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.krasivichev.andrey.Process-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Process Manager/ModelData/Process Manager-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C749997824A5EA1600ADF078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Process Manager/Process_Manager.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7X8HQ7VW7Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Process Manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.krasivichev.andrey.Process-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Process Manager/ModelData/Process Manager-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C7F03AD124AF71E9003866EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X8HQ7VW7Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/PrivilegedHelper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					PrivilegedHelper/Info.plist,
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					PrivilegedHelper/Launchd.plist,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.krasivichev.andrey.PrivilegedHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PrivilegedHelper/com.krasivichev.andrey.PrivilegedHelper-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C7F03AD224AF71E9003866EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X8HQ7VW7Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/PrivilegedHelper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					PrivilegedHelper/Info.plist,
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					PrivilegedHelper/Launchd.plist,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.krasivichev.andrey.PrivilegedHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PrivilegedHelper/com.krasivichev.andrey.PrivilegedHelper-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C746360624ADC4BD00554FD7 /* Build configuration list for PBXNativeTarget "ProcessService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C746360724ADC4BD00554FD7 /* Debug */,
+				C746360824ADC4BD00554FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C749996124A5EA1300ADF078 /* Build configuration list for PBXProject "Process Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C749997424A5EA1600ADF078 /* Debug */,
+				C749997524A5EA1600ADF078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C749997624A5EA1600ADF078 /* Build configuration list for PBXNativeTarget "Process Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C749997724A5EA1600ADF078 /* Debug */,
+				C749997824A5EA1600ADF078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7F03AD024AF71E9003866EF /* Build configuration list for PBXNativeTarget "com.krasivichev.andrey.PrivilegedHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7F03AD124AF71E9003866EF /* Debug */,
+				C7F03AD224AF71E9003866EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C749995E24A5EA1300ADF078 /* Project object */;
+}

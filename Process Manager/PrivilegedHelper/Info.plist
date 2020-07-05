@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.krasivichev.andrey.PrivilegedHelper</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>PrivilegedHelper</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>SMAuthorizedClients</key>
+	<array>
+		<string>identifier &quot;com.krasivichev.andrey.Process-Manager&quot; and anchor apple generic and certificate leaf[subject.CN] = &quot;Apple Development: Andrey Krasivichev (AK8JBSYZW6)&quot; and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+		<string>identifier &quot;com.krasivichev.andrey.ProcessService&quot; and anchor apple generic and certificate leaf[subject.CN] = &quot;Apple Development: Andrey Krasivichev (AK8JBSYZW6)&quot; and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+	</array>
+</dict>
+</plist>
